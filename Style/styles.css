@@ -267,10 +267,13 @@ section  p{
 
 #etoiles{
     padding-left: 16px;
+    padding-bottom: 12px;
+    margin-top: auto;
 }
 
 i.fa-star{
     color:#0065FC;
+    padding-right: 2px;
 }
 
 span i.fa-star{
@@ -401,8 +404,43 @@ span i.fa-star{
     margin-right: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
+}
+
+#titreicone{
+    display: flex;
+    align-items: center;
+    padding-top: 41px;
+}
+
+#titreicone i.fa-chart-line{
+    color: #0065FC;
+    padding-left: 118px;
+    
+}
+
+#titreicone h2{
+    font-size: 22px;
+    font-family: 'ralewaybold';
+    margin: 0px;
+}
+
+#populaire h3{
+font-size: 16px;
+font-family: 'ralewaybold';
+padding-top: 16px;
+margin: 0px;
+padding-left: 15px;
+padding-right: 22px;
+}
+
+#populaire p{
+    font-size: 14px;
+    font-family: 'ralewayregular';
+    padding-top: 7px;
+    margin: 0px;
+    padding-left: 15px;
 }
 
 #matin{
@@ -418,6 +456,7 @@ span i.fa-star{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content:space-between
 }
 
 #hotel_le_soleil_du_matin{
@@ -426,6 +465,7 @@ span i.fa-star{
     height: 144px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
 }
 
 #chambreshôtes{
@@ -441,7 +481,7 @@ span i.fa-star{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+    justify-content: space-between;
 }
 
 #Chambres_hôtes_eau{
@@ -450,6 +490,7 @@ span i.fa-star{
     height: 144px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
 }
 
 #Bleuetblanc{
@@ -459,12 +500,14 @@ span i.fa-star{
     border-radius: 20px;
     display: flex;
     flex-direction: row;
+    margin-bottom:34px
 }
 
 #textbleuetblanc{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #Hôtel_bleu_et_blanc{
@@ -473,6 +516,7 @@ span i.fa-star{
     height: 144px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
 }
 
 .activitésmar{
@@ -490,7 +534,7 @@ span i.fa-star{
 #textport{
     width: 302px;
     height: 56px;
-    background: #2e324b;
+    background: #FFFFFF;
 border-radius: 0px 0px 20px 20px;   
 }
 
@@ -498,6 +542,7 @@ border-radius: 0px 0px 20px 20px;
     width: 302px;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 #Fortpomègues{
@@ -509,7 +554,7 @@ border-radius: 0px 0px 20px 20px;
 #textpomègues{
     width: 302px;
     height: 56px;
-    background: #2e324b;
+    background: #FFFFFF;
 border-radius: 0px 0px 20px 20px;   
 }
 
@@ -517,6 +562,7 @@ border-radius: 0px 0px 20px 20px;
     width: 302px;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 #Calanques{
@@ -528,7 +574,7 @@ border-radius: 0px 0px 20px 20px;
 #textcalanques{
     width: 302px;
     height: 56px;
-    background: #2e324b;
+    background: #FFFFFF;
 border-radius: 0px 0px 20px 20px;   
 }
 
@@ -536,6 +582,7 @@ border-radius: 0px 0px 20px 20px;
     width: 302px;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 #Notredame{
@@ -547,7 +594,7 @@ border-radius: 0px 0px 20px 20px;
 #textnotredame{
     width: 302px;
     height: 56px;
-    background: #2e324b;
+    background: #FFFFFF;
 border-radius: 0px 0px 20px 20px;   
 }
 
@@ -555,6 +602,7 @@ border-radius: 0px 0px 20px 20px;
     width: 302px;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 
 }
 
