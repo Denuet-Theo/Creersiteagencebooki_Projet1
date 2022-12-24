@@ -31,41 +31,45 @@
     font-style: normal;
 }
 
-.page{
- background-color: #F0F2F6;
- width: 1400px;
+body{
+ background-color: #FFFFFF;
+
+}
+
+#bloc_page{
+    max-width: 1400px;
+    margin: auto;
 }
 
 #logo img{
-width: 61.09px;
-height: 19px;
-margin-top: 44px;
-margin-left: 55px;
-}
-
+    width: 61.09px;
+    height: 19px;
+    padding-top: 44px;
+    padding-left: 55px;
+    }
+    
 #logo{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
+    
 nav ul{
-        list-style-type: none;
-        display: flex;
-        margin-left: 1003.91px;
-        margin-top: 48px;              
-}
-
+     list-style-type: none;
+     display: flex;
+     margin-top: 48px;              
+ }
+    
 a {
     font-family: 'ralewayregular';
     font-size: 16px;
     color:black; 
     text-decoration: none;
-}
-
+ }
+    
 nav li{
-       margin-right: 67px;    
-}
+    margin-right: 67px;    
+ }
 
 nav a:hover {
     border-top: 2px solid #0065FC;
@@ -152,8 +156,8 @@ article{
     flex-direction: row;
     text-align:center;
    justify-content:space-between;
-   margin-left: 62px;
-   margin-right: 464px;
+   padding-left: 62px;
+   padding-right: 412px;
    margin-top: 31px;
 }
 
@@ -222,7 +226,6 @@ i.fa-info{
 
 .container{
     display: flex;
-   margin-right: 50px;
     margin-left: 50px;
 }
 
@@ -231,7 +234,7 @@ section{
     height: 626px;
     background: #F2F2F2;
     border-radius: 20px;
-    padding-right: 40px;
+    
 }
 
 section h1{
@@ -401,7 +404,6 @@ span i.fa-star{
     background: #F2F2F2;
     border-radius: 20px;
     margin-left: 40px;
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -536,6 +538,7 @@ padding-right: 22px;
     height: 56px;
     background: #FFFFFF;
 border-radius: 0px 0px 20px 20px;   
+padding-left: 19px; 
 }
 
 #vieux_port{
@@ -556,6 +559,7 @@ border-radius: 0px 0px 20px 20px;
     height: 56px;
     background: #FFFFFF;
 border-radius: 0px 0px 20px 20px;   
+padding-left: 19px; 
 }
 
 #fort_de_pomègues{
@@ -575,7 +579,8 @@ border-radius: 0px 0px 20px 20px;
     width: 302px;
     height: 56px;
     background: #FFFFFF;
-border-radius: 0px 0px 20px 20px;   
+border-radius: 0px 0px 20px 20px;  
+padding-left: 19px;  
 }
 
 #Parc_national_des_calanques{
@@ -589,13 +594,15 @@ border-radius: 0px 0px 20px 20px;
     display: flex;
     flex-direction: column;
     margin-right: 43px;
+    
 }
 
 #textnotredame{
     width: 302px;
     height: 56px;
     background: #FFFFFF;
-border-radius: 0px 0px 20px 20px;   
+border-radius: 0px 0px 20px 20px; 
+padding-left: 19px;  
 }
 
 #Notre_dame_de_la_garde{
@@ -610,6 +617,10 @@ footer{
     display: flex;
     flex-direction: row;
     background: #F2F2F2;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 61px;
+    margin-left: 48px;
+    margin-right: 53px;
+    padding-left: 70px;
+    padding-right: 348px;
 }
