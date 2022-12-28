@@ -40,42 +40,49 @@ body{
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color : #000000;
+}
+
 #logo img{
     width: 61.09px;
     height: 19px;
     padding-top: 44px;
     padding-left: 55px;
-    }
+}
     
 #logo{
     display: flex;
-    flex-direction: row;
-    
+}
+
+header{
+    width: max-content;
 }
 
 header ul{
-     list-style-type: none;
-     display: flex;
-     margin-top: 48px;  
-     padding-left: 1025px;   
-     margin-right: 77px;        
- }
+    list-style-type: none;
+    display: flex;
+    margin-top: 48px;  
+    padding-left: 1025px;   
+    margin-right: 77px;        
+}
     
-header a {
+header a{
     font-family: 'ralewayregular';
     font-size: 16px;
     color:black; 
     text-decoration: none;
- }
+}
     
 header li{
     margin-right: 67px;    
- }
+}
 
 header a:hover {
     border-top: 2px solid #0065FC;
     padding-top: 46px;
-  }
+}
 
 header a:focus{
     color: #0065FC;
@@ -96,11 +103,13 @@ header h2{
     margin-left: 55px;
 }
 
+nav{
+    width: 1400px;
+}
+
 form{
     display: flex;
     align-items: center;
-    width: 965px;
-    height: 49px;
     margin-bottom: 46px;
 }
 
@@ -112,55 +121,51 @@ form{
     width: 50px;
     height: 49px;
     background: #F2F2F2;
- border: 1px solid #F2F2F2;
- border-radius: 15px 0px 0px 15px;
- position: absolute;
- display: flex;
- text-align: center;
- margin-left: 55px;
- }
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    position: absolute;
+    display: flex;
+    margin-left: 55px;
+}
  
- i.fa-location-dot{
-     margin: auto;
- }
+i.fa-location-dot{
+    margin: auto;
+}
  
  #rechercheville{
-     width: 332px;
-     height: 49px;
-     font-size: 18px;
-     font-family: 'ralewaybold';
-     border-radius: 15px;
-     border: 1px solid #F2F2F2;
-     background: #FFFFFF;  
-     padding-left: 67px;
-     margin-left: 55px;
- }
+    width: 332px;
+    height: 49px;
+    font-size: 18px;
+    font-family: 'ralewaybold';
+    border-radius: 15px;
+    border: 1px solid #F2F2F2;
+    background: #FFFFFF;  
+    padding-left: 67px;
+    margin-left: 55px;
+}
  
- #bloc_recherche{
+#bloc_recherche{
+    color: #0065FC;
+    border-radius : 0px 15px 15px 0px ;
+    position:absolute;
+    margin-left: 341px;
+}
+ 
+button{
+    font-family: 'ralewaybold';
+    font-size: 18px;
+    color: #FFFFFF;
     width: 132px;
     height: 49px;
-    color: #0065FC;
-border-radius : 0 px 15 px 15 px 0  px ;
-position:absolute;
-margin-left: 341px;
- }
- 
- button{
-     font-family: 'ralewaybold';
-     font-size: 18px;
-     color: #FFFFFF;
-     width: 132px;
-     height: 49px;
- background: #0065FC;
- border: 1px solid #0065FC;
- border-radius: 0px 15px 15px 0px;
- }
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
 
 #choixoption{
     display: flex ;
-   margin-left: 62px;
-   margin-top: 31px;
-   width: 914px;
+    margin-left: 62px;
+    width: 914px;
 }
 
 #choixoption h3{
@@ -169,24 +174,19 @@ margin-left: 341px;
 }
     
 #choixoption .boutonmenu{
-    display: flex;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     background-color: #F0F2F6;
     width: max-content;
     margin: auto;
-}
-
-#choixoption .boutonmenu:focus{
-    background-color: #DEEBFF;
-}
-
-#choixoption p{
-    margin: auto;
     font-size: 17px;
     font-family: 'ralewaybold';
     color: #000000;
     padding-right: 20px;
+}
+
+#choixoption .boutonmenu:hover{
+    background-color: #DEEBFF;
 }
 
 #choixoption i.fa-solid{
@@ -202,6 +202,7 @@ margin-left: 341px;
     margin-left: 59px;
     margin-top: 35px;
     margin-bottom: 39px;
+    width: max-content;
 }
 
 #information p{
@@ -228,6 +229,7 @@ i.fa-info{
 main{
     display: flex;
     margin-left: 50px;
+    width: max-content;
 }
 
 section{
@@ -247,7 +249,7 @@ section{
 }
 */
 
-section h1{
+#premiere h2{
 font-family: 'ralewaybold';
 font-size: 22px;
 padding-left: 40px;
@@ -255,24 +257,14 @@ padding-top: 42px;
 margin: 0px;
 }
 
-section a{
-    padding-left: 44px;
-font-family: 'ralewaybold';
-font-size: 18px;
-margin: 0px;
-color: #000000;
-text-decoration: none
-;
-}
-
-section h3 {
+section h3{
     margin: auto;
     font-family: 'ralewaybold';
     font-size: 16px;
     padding-left: 16px;
 }
 
-section  p{
+section p{
     margin-top: 9px;
     margin-bottom: 9px;
     font-family: 'ralewayregular';
@@ -280,7 +272,13 @@ section  p{
     padding-left: 16px;
 }
 
-#etoiles{
+#textaffichage{
+    font-size: 18px;
+    font-family: 'ralewaybold';
+    padding-left: 44px;
+}
+
+.etoiles{
     padding-left: 16px;
     padding-bottom: 12px;
     margin-top: auto;
@@ -314,23 +312,17 @@ span i.fa-star{
     object-fit: cover;
 }
 
-#contenulieux{
+.contenulieux{
     width: 246px;
     height: 199px;
     background: #FFFFFF;
     border-radius: 20px;
-    flex: none;
     margin-bottom: 30px;
 }
 
 #populaire{
-    width: 343px;
-    height: 625px;
-    background: #F2F2F2;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding-left: 37px;
     padding-right: 40px;
@@ -340,6 +332,7 @@ span i.fa-star{
     display: flex;
     align-items: center;
     padding-top: 41px;
+    padding-bottom: 26px;
 }
 
 #titreicone i.fa-chart-line{
@@ -351,21 +344,16 @@ span i.fa-star{
     font-size: 22px;
     font-family: 'ralewaybold';
     margin: 0px;
-    padding: 0px;
 }
 
 #populaire h3{
-font-size: 16px;
-font-family: 'ralewaybold';
-padding-top: 16px;
-margin: 0px;
-padding-left: 15px;
-padding-right: 22px;
+    padding-top: 16px;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 22px;
 }
 
 #populaire p{
-    font-size: 14px;
-    font-family: 'ralewayregular';
     padding-top: 7px;
     margin: 0px;
     padding-left: 15px;
@@ -383,35 +371,34 @@ padding-right: 22px;
 .textpopulaire{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content:space-between
 }
 
-#contenupopulaire{
+.contenupopulaire{
     width: 343px;
     height: 144px;
     background: #FFFFFF;
     border-radius: 20px;
     display: flex;
-    flex-direction: row; 
+    margin-bottom: 33px;
 }
 
 article{
+    width: max-content;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
 }
 
 .activitésmar{
-    display: flex;    
+    display: flex;   
 }
 
 #Activitéstitre h2{
-font-size: 22px;
-font-family: 'ralewaybold';
-margin: 0px;
-padding-bottom: 18.63px;
-padding-top: 60px;
+    font-size: 22px;
+    font-family: 'ralewaybold';
+    margin: 0px;
+    padding-bottom: 18.63px;
+    padding-top: 60px;
 }
 
 .activitésmar h3{
@@ -421,13 +408,12 @@ padding-top: 60px;
 }
 
 .textactivités{
-    width: 302px;
     height: 56px;
     background: #FFFFFF;
-border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
-#contenuact{
+.contenuact{
     display: flex;
     flex-direction: column;
     padding-right: 43px;
@@ -453,7 +439,6 @@ footer{
     padding-top: 45px;
     display: flex;
     justify-content: space-between;
-    text-align: start;
     padding-right: 348px;
 }
 
