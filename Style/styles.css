@@ -143,7 +143,7 @@ i.fa-location-dot{
     margin-left: 341px;
 }
  
-button{
+#bloc_recherche button{
     font-family: 'ralewaybold';
     font-size: 18px;
     color: #FFFFFF;
@@ -155,9 +155,11 @@ button{
 }
 
 #choixoption{
-    display: flex ;
+    display: flex;
     margin-left: 62px;
-    margin-right: 430px;
+    /* margin-right:420px; */
+    justify-content: space-between;
+    width: 65%;
 }
 
 #choixoption h3{
@@ -170,11 +172,12 @@ button{
     border-radius: 25px;
     background-color: #F0F2F6;
     width: max-content;
-    margin: auto;
+    /* margin: auto; */
     font-size: 17px;
     font-family: 'ralewaybold';
     color: #000000;
     padding-right: 20px;
+    height:50px;
 }
 
 #choixoption .boutonmenu:hover{
@@ -243,6 +246,7 @@ section{
     padding-left: 40px;
     padding-top: 42px;
     margin: 0px;
+    padding-bottom: 23px;
 }
     
 section h3{
@@ -264,6 +268,7 @@ section p{
     font-size: 18px;
     font-family: 'ralewaybold';
     padding-left: 44px;
+    padding-top: 40px;
 }
 
 .etoiles{
@@ -281,12 +286,12 @@ span i.fa-star{
 }
 
 .Lieux{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    padding-left:  40px;
+    display: grid;
+    grid-template-columns: 30.5% 30.5% 30.5%;
+    column-gap:  31px;
+    row-gap: 30px;
+    padding-left: 40px;
     padding-right: 40px;
-    padding-top: 23px;
 }
 
 .Lieux img{
@@ -299,18 +304,16 @@ span i.fa-star{
 }
 
 .contenulieux{
-    width: 246px;
     height: 199px;
     background: #FFFFFF;
     border-radius: 20px;
-    margin-bottom: 30px;
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.39);
 }
 
 #populaire{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    row-gap: 30px;
+    margin-bottom:34px; 
 }
 
 #titreicone{
@@ -348,8 +351,7 @@ span i.fa-star{
 
 #populaire img{
     box-sizing: border-box;
-    width: 137px;
-    height: 100%;
+    width:40%;
     border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -361,24 +363,28 @@ span i.fa-star{
 }
 
 .contenupopulaire{
-    width: 343px;
+    width: 80%;
+    margin-left:38px;
+    /* margin-bottom:34px; */
     height: 144px;
     background: #FFFFFF;
     border-radius: 20px;
     display: flex;
-    margin-bottom: 33px; 
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.39);
 }
 
 article{
-    /*width: max-content;*/
+    /* width: max-content; */
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    margin-right:53px;
 }
 
 .activitésmar{
-    display: flex;   
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    column-gap:  37px;
 }
 
 #Activitéstitre h2{
@@ -404,13 +410,13 @@ article{
 .contenuact{
     display: flex;
     flex-direction: column;
-    margin-right: 37px;
+    /* margin-right: 37px; */
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.39);
     border-radius: 20px 20px 20px 20px;
 }
 
 .activitésmar img{
-    width: 293px;
+    width: 100%;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -458,7 +464,7 @@ footer p{
     }
 
     #choixoption{
-        margin-right: 80px;
+        width: 85%;
     }
 
     #premiere{
@@ -469,9 +475,9 @@ footer p{
     #populaire{
         display: flex;
         flex-direction: row;
-        margin-left: 40px;
-        margin-right: 41px;
         justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
         
     }
 
@@ -489,6 +495,7 @@ footer p{
 
     .contenupopulaire{
         width: 252px;
+        margin-left: 0px;
     }
 
     .contenuact{
