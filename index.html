@@ -2,6 +2,7 @@
 <html lang="fr">
    <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <title>Booki</title>
       <link rel="stylesheet" type="text/css" href="Style/styles.css">
       <script src="https://kit.fontawesome.com/64d3d9d709.js" crossorigin="anonymous"></script>
@@ -30,12 +31,16 @@
                   </div>
                   <input type="search" name="rechercheville" id="rechercheville" placeholder="Marseille,France">
                   <div id="bloc_recherche">
-                     <button>Rechercher</button>
+                     <button>
+                        <span>Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </button>
                   </div>
                </form>
             </div>
             <div id="choixoption">
                <h3>Filtres</h3>
+               <div class="alignement_filtre">
                <button class="boutonmenu" type="button">
                   <i class="fa-solid fa-money-bill-wave"></i>
                   Économique
@@ -53,6 +58,7 @@
                   Animaux autorisés
                </button>
             </div>
+         </div>
             <div id="information">
                <i class="fa-solid fa-info"></i>
                <p>Plus de 500 logements sont disponibles dans cette ville</p>

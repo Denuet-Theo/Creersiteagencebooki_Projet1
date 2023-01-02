@@ -68,6 +68,8 @@ header a{
     font-size: 16px;
     color:black; 
     text-decoration: none;
+    padding-top: 46px;
+    border-top: 2px solid #FFFFFF;
 }
     
 header li{
@@ -76,7 +78,7 @@ header li{
 
 header a:hover {
     border-top: 2px solid #0065FC;
-    padding-top: 46px;
+    
     color: #0065FC;
     font-family: 'ralewaymedium';
 }
@@ -154,6 +156,10 @@ i.fa-location-dot{
     border-radius: 0px 15px 15px 0px;
 }
 
+button i.fa-magnifying-glass{
+    display: none;
+}
+
 #choixoption{
     display: flex;
     margin-left: 62px;
@@ -197,7 +203,6 @@ i.fa-location-dot{
     margin-left: 59px;
     margin-top: 35px;
     margin-bottom: 39px;
-    width: max-content;
 }
 
 #information p{
@@ -448,7 +453,7 @@ footer p{
     font-family: 'ralewayregular';
 }
 
-@media all and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     main{
         flex-direction: column;
     }
@@ -515,5 +520,201 @@ footer p{
 
     footer{
         width:90%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #logo{
+        display: block;
+    }
+
+    header h1{
+        margin-left: 20px;
+    }
+
+    header h2{
+        margin-left: 20px;
+    }
+
+    #iconeloc {
+        margin-left: 20px;
+    }
+
+    #rechercheville {
+        margin-left: 20px;
+    }
+
+    #bloc_recherche {
+        margin-left: 306px;
+    }
+
+    #logo img{
+        padding-top: 21px;
+        padding-left: 0px;
+        margin-left:45%;
+    }
+
+    ul{
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    ul a:hover {
+        border-bottom: 2px solid #0065FC;
+        color: #0065FC;
+        border-top: none;
+    }
+    
+    header li {
+        margin-right: 0px;
+    }
+    li{
+        width: 50%;
+    }
+
+    #logo a{
+        width: 100%;
+        display: block;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 23px;
+        text-align: center;
+    }
+
+    nav{
+        margin-top: 36px;
+    }
+
+    button span{
+        display:none;
+    }
+
+    button i.fa-magnifying-glass{
+       display: initial;
+    }
+
+    #bloc_recherche button{
+        width: 49px;
+    }
+
+    #choixoption{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .alignement_filtre{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 14px;
+        row-gap: 17px;
+    }
+
+    #choixoption .boutonmenu{
+        width: 160px;
+        font-size: 11px;
+    }
+
+    #choixoption i.fa-solid{
+        padding-left: 0px;
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+    #information{
+        margin-left: 20px;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+
+    #premiere{
+        margin-top: 26px;
+        width: 100%;
+        background-color: #FFFFFF;
+        height: auto;
+    }
+
+    #premiere h2{
+        padding-left: 20px;
+    }
+
+    .Lieux{
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .contenulieux{
+        width: 335px;
+        margin: auto;
+    }
+
+    #textaffichage {
+        display: none;
+    }
+
+    #deuxieme{
+        width: 100%;
+        height: 580px;
+    }
+
+    #populaire{
+        flex-direction: column;
+        margin: 0px;
+        row-gap: 11px;
+    }
+
+    #populaire a {
+        margin:auto;
+    }
+
+    .contenupopulaire {
+        width: 334px;
+    }
+
+    article{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    #Activitéstitre h2 {
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .activitésmar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenuact {
+        width: 334px;
+        height: 190px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    .activitésmar img {
+        width: 334px;
+        height: 134px;
+    }
+
+    .textactivités{
+        width: 100%;
+    }
+
+    footer{
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
+    #footertext{
+        flex-direction: column;
     }
 }
