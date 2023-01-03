@@ -164,7 +164,7 @@ button i.fa-magnifying-glass{
     display: flex;
     margin-left: 62px;
     /* margin-right:420px; */
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     width: 65%;
 }
 
@@ -193,8 +193,12 @@ button i.fa-magnifying-glass{
 #choixoption i.fa-solid{
     margin: auto;
     color: #0065FC;
-    padding-right: 10px;
-    padding-left: 20px;
+}
+
+.alignement_filtre {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 #information{
@@ -354,6 +358,10 @@ span i.fa-star{
     padding-left: 15px;
 }
 
+#populaire a {
+    width: 80%;
+}
+
 #populaire img{
     box-sizing: border-box;
     width:40%;
@@ -368,7 +376,7 @@ span i.fa-star{
 }
 
 .contenupopulaire{
-    width: 80%;
+    width: 100%;
     margin-left:38px;
     /* margin-bottom:34px; */
     height: 144px;
@@ -379,7 +387,7 @@ span i.fa-star{
 }
 
 article{
-    /* width: max-content; */
+    width: 93%;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
@@ -387,9 +395,12 @@ article{
 }
 
 .activitésmar{
-    display: grid;
-    grid-template-columns: 23% 23% 23% 23%;
-    column-gap:  37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activitésmar a{
+    width: 23.5%;
 }
 
 #Activitéstitre h2{
@@ -480,14 +491,10 @@ footer p{
     #populaire{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin-left: 40px;
-        margin-right: 40px;
-        
     }
 
     #populaire img{
-        width: 106px;
+      width:42%;
     }
 
     #titreicone {
@@ -498,22 +505,40 @@ footer p{
         margin:0px
     }
 
+    #populaire a{
+        width: 29%;
+        margin: auto;
+    }
     .contenupopulaire{
-        width: 252px;
+        width: 100%;
+        height: 144px;
         margin-left: 0px;
     }
 
     .contenuact{
-        margin-right: 48px;
+        /*margin-right: 48px;*/
+    }
+
+    article{
+        width: 89%;
+    }
+
+    .activitésmar{
+        display: flex;
+        justify-content: space-between;
+        margin:auto ;
     }
 
     .activitésmar img{
-        width: 182px;
         height: 211px;
     }
 
+    .activitésmar a{
+        width: 20%;
+        height: 267px;
+    }
+
     .textactivités {
-        width: 182px;
         display: flex;
         align-items: center;
     }
@@ -641,14 +666,24 @@ footer p{
     }
 
     .Lieux{
-        padding-left: 20px;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         row-gap: 12px;
+        margin-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 93%;
+    }
+
+    .Lieux a{
+        width: 100%;
+        
+        
     }
 
     .contenulieux{
-        width: 335px;
+       /* width: 335px;*/
         margin: auto;
     }
 
@@ -669,10 +704,11 @@ footer p{
 
     #populaire a {
         margin:auto;
+        width: 92%;
     }
 
     .contenupopulaire {
-        width: 334px;
+        width: 100%;
     }
 
     article{
@@ -689,17 +725,24 @@ footer p{
     .activitésmar {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .activitésmar a{
+        height: 190px;
+        margin-bottom: 24px;
+        width: 100%;
     }
 
     .contenuact {
-        width: 334px;
-        height: 190px;
-        margin: auto;
-        margin-bottom: 24px;
+        /*width: 334px;*/
+        width: 93%;
     }
 
     .activitésmar img {
-        width: 334px;
+       /* width: 334px;*/
+       width: 100%;
         height: 134px;
     }
 
