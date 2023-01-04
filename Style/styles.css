@@ -66,8 +66,6 @@ header ul{
 header a{
     font-family: 'ralewayregular';
     font-size: 16px;
-    color:black; 
-    text-decoration: none;
     padding-top: 46px;
     border-top: 2px solid #FFFFFF;
 }
@@ -78,7 +76,6 @@ header li{
 
 header a:hover {
     border-top: 2px solid #0065FC;
-    
     color: #0065FC;
     font-family: 'ralewaymedium';
 }
@@ -163,8 +160,6 @@ button i.fa-magnifying-glass{
 #choixoption{
     display: flex;
     margin-left: 62px;
-    /* margin-right:420px; */
-    /*justify-content: space-between;*/
     width: 65%;
 }
 
@@ -178,7 +173,6 @@ button i.fa-magnifying-glass{
     border-radius: 25px;
     background-color: #F0F2F6;
     width: max-content;
-    /* margin: auto; */
     font-size: 17px;
     font-family: 'ralewaybold';
     color: #000000;
@@ -355,7 +349,6 @@ span i.fa-star{
 #populaire p{
     padding-top: 7px;
     margin: 0px;
-    padding-left: 15px;
 }
 
 #populaire a {
@@ -378,7 +371,6 @@ span i.fa-star{
 .contenupopulaire{
     width: 100%;
     margin-left:38px;
-    /* margin-bottom:34px; */
     height: 144px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -391,7 +383,6 @@ article{
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    margin-right:53px;
 }
 
 .activitésmar{
@@ -426,7 +417,6 @@ article{
 .contenuact{
     display: flex;
     flex-direction: column;
-    /* margin-right: 37px; */
     box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.39);
     border-radius: 20px 20px 20px 20px;
 }
@@ -459,9 +449,12 @@ footer h2{
     font-family: 'ralewaybold';
 }
 
-footer p{
+footer a{
     font-size: 16px;
     font-family: 'ralewayregular';
+    display:flex;
+    flex-direction:column;
+    padding-bottom:12px;
 }
 
 @media screen and (max-width: 992px) {
@@ -474,9 +467,9 @@ footer p{
     }
 
     #deuxieme {
-        margin-top: 53px;
         height: 278px;
         width: 95%;
+        margin-top: 53px;
     }
 
     #choixoption{
@@ -490,7 +483,6 @@ footer p{
 
     #populaire{
         display: flex;
-        flex-direction: row;
     }
 
     #populaire img{
@@ -510,23 +502,11 @@ footer p{
         margin: auto;
     }
     .contenupopulaire{
-        width: 100%;
-        height: 144px;
         margin-left: 0px;
-    }
-
-    .contenuact{
-        /*margin-right: 48px;*/
     }
 
     article{
         width: 89%;
-    }
-
-    .activitésmar{
-        display: flex;
-        justify-content: space-between;
-        margin:auto ;
     }
 
     .activitésmar img{
@@ -535,7 +515,6 @@ footer p{
 
     .activitésmar a{
         width: 20%;
-        height: 267px;
     }
 
     .textactivités {
@@ -593,6 +572,7 @@ footer p{
     header li {
         margin-right: 0px;
     }
+
     li{
         width: 50%;
     }
@@ -629,7 +609,6 @@ footer p{
     .alignement_filtre{
         display: grid;
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
         column-gap: 14px;
         row-gap: 17px;
     }
@@ -676,13 +655,6 @@ footer p{
 
     .Lieux a{
         width: 100%;
-        
-        
-    }
-
-    .contenulieux{
-       /* width: 335px;*/
-        margin: auto;
     }
 
     #textaffichage {
@@ -692,16 +664,15 @@ footer p{
     #deuxieme{
         width: 100%;
         height: 580px;
+        margin-top: 0px;
     }
 
     #populaire{
         flex-direction: column;
-        margin: 0px;
         row-gap: 11px;
     }
 
     #populaire a {
-        margin:auto;
         width: 92%;
     }
 
@@ -711,7 +682,6 @@ footer p{
 
     article{
         margin-left: 0px;
-        margin-right: 0px;
         width: 100%;
     }
 
@@ -734,18 +704,12 @@ footer p{
     }
 
     .contenuact {
-        /*width: 334px;*/
         width: 92%;
     }
 
     .activitésmar img {
-       /* width: 334px;*/
        width: 100%;
         height: 134px;
-    }
-
-    .textactivités{
-        width: 100%;
     }
 
     footer{
@@ -753,7 +717,6 @@ footer p{
         width: 100%;
         margin-left: 0px;
     }
-
 
     #footertext{
         flex-direction: column;
