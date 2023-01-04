@@ -47,8 +47,7 @@ a{
 #logo img{
     width: 61.09px;
     height: 19px;
-    padding-top: 44px;
-    padding-left: 55px;
+    padding: 44px 0px 0px 55px;
 }
 
 #logo{
@@ -83,15 +82,13 @@ header a:hover {
 header h1{
     font-family: 'ralewaybold';
     font-size: 22px;
-    margin-top: 63px;
-    margin-left: 55px;
+    margin: 63px 0px 0px 55px;
 }
 
 header h2{
     font-family: 'ralewayregular';
     font-size: 16px;
-    margin-top: 8px;
-    margin-left: 55px;
+    margin: 8px 0px 20px 55px;
 }
 
 form{
@@ -198,9 +195,7 @@ button i.fa-magnifying-glass{
 #information{
     display: flex;
     align-items: center;
-    margin-left: 59px;
-    margin-top: 35px;
-    margin-bottom: 39px;
+    margin: 35px 0px 39px 59px;
 }
 
 #information p{
@@ -215,10 +210,7 @@ i.fa-info{
     color: #0065FC;
     width: 4px;
     height: 10px;
-    padding-left: 10px;
-    padding-top: 7px;
-    padding-right: 10px;
-    padding-bottom: 7px;
+    padding: 7px 10px 7px 10px;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -246,10 +238,8 @@ section{
 #premiere h2{
     font-family: 'ralewaybold';
     font-size: 22px;
-    padding-left: 40px;
-    padding-top: 42px;
     margin: 0px;
-    padding-bottom: 23px;
+    padding: 42px 0px 23px 40px;
 }
     
 section h3{
@@ -260,8 +250,7 @@ section h3{
 }
     
 section p{
-        margin-top: 9px;
-        margin-bottom: 9px;
+        margin: 9px 0px 9px 0px;
         font-family: 'ralewayregular';
         font-size: 14px;
         padding-left: 16px;
@@ -270,13 +259,11 @@ section p{
 #textaffichage{
     font-size: 18px;
     font-family: 'ralewaybold';
-    padding-left: 44px;
-    padding-top: 40px;
+    padding: 40px 0px 0px 44px;
 }
 
 .etoiles{
-    padding-left: 16px;
-    padding-bottom: 12px;
+    padding: 0px 0px 12px 16px;
     margin-top: auto;
 }
 
@@ -293,8 +280,7 @@ span i.fa-star{
     grid-template-columns: 30.5% 30.5% 30.5%;
     column-gap:  31px;
     row-gap: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 .Lieux img{
@@ -322,8 +308,7 @@ span i.fa-star{
 #titreicone{
     display: flex;
     align-items: center;
-    padding-top: 41px;
-    padding-bottom: 26px;
+    padding: 41px 0px 26px 0px;
     justify-content: space-between;
 }
 
@@ -335,15 +320,12 @@ span i.fa-star{
 #titreicone h2{
     font-size: 22px;
     font-family: 'ralewaybold';
-    margin: 0px;
-    margin-left: 37px;
+    margin: 0px 0px 0px 37px;
 }
 
 #populaire h3{
-    padding-top: 16px;
     margin: 0px;
-    padding-left: 15px;
-    padding-right: 22px;
+    padding: 16px 22px 0px 15px;
 }
 
 #populaire p{
@@ -398,8 +380,7 @@ article{
     font-size: 22px;
     font-family: 'ralewaybold';
     margin: 0px;
-    padding-bottom: 18.63px;
-    padding-top: 60px;
+    padding: 60px 0px 18.63px 0px;
 }
 
 .activitésmar h3{
@@ -432,13 +413,11 @@ footer{
     background: #F2F2F2;
     width: 93%;
     height: 225px;
-    margin-left: 48px;
-    margin-top: 61px;
+    margin: 61px 0px 0px 48px;
 }
 
 #footertext{
-    padding-left: 70px;
-    padding-top: 45px;
+    padding: 45px 0px 0px 70px;
     display: flex;
     justify-content: space-between;
     width:73%;
@@ -553,8 +532,7 @@ footer a{
     }
 
     #logo img{
-        padding-top: 21px;
-        padding-left: 0px;
+        padding: 21px 0px 0px 0px;
         margin-left:45%;
     }
 
@@ -619,9 +597,8 @@ footer a{
     }
 
     #choixoption i.fa-solid{
-        padding-left: 0px;
+        padding: 0px;
         font-size: 16px;
-        padding-right: 0px;
     }
 
     #information{
@@ -665,6 +642,7 @@ footer a{
         width: 100%;
         height: 580px;
         margin-top: 0px;
+        border-radius: 0px;
     }
 
     #populaire{
