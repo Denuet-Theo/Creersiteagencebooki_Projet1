@@ -133,7 +133,6 @@ i.fa-location-dot{
 }
 
 .bloc_recherche{
-    color: #0065FC;
     border-radius : 0px 15px 15px 0px ;
     position:absolute;
     margin-left: 341px;
@@ -244,17 +243,17 @@ section{
 }
     
 section h3{
-        margin: auto;
-        font-family: 'ralewaybold';
-        font-size: 16px;
-        padding-left: 16px;
+    margin: auto;
+    font-family: 'ralewaybold';
+    font-size: 16px;
+    padding-left: 16px;
 }
     
 section p{
-        margin: 3px 0px 6px 0px;
-        font-family: 'ralewayregular';
-        font-size: 14px;
-        padding-left: 16px;
+    margin: 3px 0px 6px 0px;
+    font-family: 'ralewayregular';
+    font-size: 14px;
+    padding-left: 16px;
 }
 
 .text_affichage{
@@ -380,8 +379,9 @@ article{
 .Activités_titre h2{
     font-size: 22px;
     font-family: 'ralewaybold';
-    margin: 0px;
+    margin: 0px 0px 0px 22px;
     padding: 60px 0px 18.63px 0px;
+    width: 55%;
 }
 
 .activités_mar h3{
@@ -671,7 +671,6 @@ footer a{
     }
 
     .activités_mar {
-        display: flex;
         flex-direction: column;
         width: 100%;
         margin-left: 20px;
