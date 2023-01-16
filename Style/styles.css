@@ -37,6 +37,7 @@ body{
 
 #bloc_page{
     max-width: 1400px;
+    margin: auto;
 }
 
 a{
@@ -219,6 +220,10 @@ i.fa-info{
 main{
     display: flex;
     margin-left: 50px;
+}
+
+.euros{
+    font-weight: 600;
 }
 
 section{
@@ -508,12 +513,21 @@ footer a{
 }
 
 @media all and (max-width: 768px) {
+    body{
+        margin: 0px;
+    }
+
     .logo{
         display: block;
     }
 
+    header a{
+        padding-top: 0px;
+    }
+
     header h1{
-        margin-left: 20px;
+        margin: 31px 0px 0px 20px;
+        width:85%;
     }
 
     header h2{
@@ -599,7 +613,7 @@ footer a{
     }
 
     .choix_option i.fa-solid{
-        padding: 0px;
+        padding-right : 5px;
         font-size: 16px;
     }
 
@@ -624,10 +638,10 @@ footer a{
     }
 
     .Lieux{
-        margin-left: 20px;
+        margin-left: 15px;
         display: flex;
         flex-direction: column;
-        row-gap: 12px;
+        row-gap: 25px;
         padding-left: 0px;
         width: 92%;
     }
@@ -673,7 +687,7 @@ footer a{
     .activités_mar {
         flex-direction: column;
         width: 100%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .activités_mar a{
@@ -699,5 +713,6 @@ footer a{
 
     #footer_text{
         flex-direction: column;
+        padding: 45px 0px 0px 22px;
     }
 }
